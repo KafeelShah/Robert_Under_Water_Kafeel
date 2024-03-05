@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Trident
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-236.0,"y":-102.0},"guid":"a7a78c7e-b7c5-44d2-9064-ad90e19e3fc6","$version":"A","$type":"Unity.VisualScripting.OnEnable","$id":"9"},{"kind":"Scene","defaultValues":{"name":{"$content":"isTrident","$type":"System.String"}},"position":{"x":106.0,"y":-104.0},"guid":"12991986-a90c-4652-bddc-2dd4e3945b9f","$version":"A","$type":"Unity.VisualScripting.SetVariable","$id":"11"},{"type":"System.Boolean","value":{"$content":true,"$type":"System.Boolean"},"defaultValues":{},"position":{"x":-234.0,"y":22.0},"guid":"cb695e53-4d49-4657-bf82-3ed6b84a04d5","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"13"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"assign","guid":"004bb8ea-ef85-4d95-bafb-a2b2cbb0470d","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"output","destinationUnit":{"$ref":"11"},"destinationKey":"input","guid":"65f5e90d-06d5-47ef-88c2-0bb86cc37d87","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
