@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Seahorse
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-9.0,"y":75.2863},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-246.0,"y":-27.0},"guid":"84ff1492-7665-460d-8d24-91a6bd7aaf3d","$version":"A","$type":"Unity.VisualScripting.OnEnable","$id":"9"},{"kind":"Scene","defaultValues":{"name":{"$content":"isSea","$type":"System.String"}},"position":{"x":98.0,"y":-28.0},"guid":"902bdeb4-fe2b-4f7d-88c1-b2bbc0286a72","$version":"A","$type":"Unity.VisualScripting.SetVariable","$id":"11"},{"type":"System.Boolean","value":{"$content":true,"$type":"System.Boolean"},"defaultValues":{},"position":{"x":-242.0,"y":98.0},"guid":"189be3ee-cf94-41aa-8fa1-579e1bd209f4","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"13"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"assign","guid":"2e1e1993-6a3e-4997-a545-77ec497628f5","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"output","destinationUnit":{"$ref":"11"},"destinationKey":"input","guid":"eedd7fc4-3de1-4422-8c1b-4baa836e5b69","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

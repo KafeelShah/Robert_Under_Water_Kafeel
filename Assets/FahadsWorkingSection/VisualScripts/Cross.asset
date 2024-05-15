@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Cross
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-4.0,"y":38.41996},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-236.0,"y":-62.0},"guid":"ab51b173-096f-4fdc-af65-f877fac41d79","$version":"A","$type":"Unity.VisualScripting.OnEnable","$id":"9"},{"kind":"Scene","defaultValues":{"name":{"$content":"isCross","$type":"System.String"}},"position":{"x":106.0,"y":-63.0},"guid":"9661430c-b310-4608-aff0-ce100ead9874","$version":"A","$type":"Unity.VisualScripting.SetVariable","$id":"11"},{"type":"System.Boolean","value":{"$content":true,"$type":"System.Boolean"},"defaultValues":{},"position":{"x":-234.0,"y":63.0},"guid":"a90cb880-4813-47a0-af6a-7b6375ad2eef","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"13"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"assign","guid":"9f3551ad-f60f-4e54-9c72-be49db04b694","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"output","destinationUnit":{"$ref":"11"},"destinationKey":"input","guid":"ed2d1c8f-749e-495b-b8b5-849338f8661f","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
